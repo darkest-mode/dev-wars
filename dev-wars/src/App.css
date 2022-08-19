@@ -1,0 +1,59 @@
+body {
+  background-color: #282c34;
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  border: 3px solid purple;
+  padding: 10px ;
+  margin: 0px 20%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  margin: 3% 20%;
+  padding: 10px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-code-generator {
+  border: 3px solid rgb(4, 119, 94);
+  box-shadow: 3px 3px #1a1f1a;
+  padding: 10px;
+  background-color: #283428;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  margin: 15px;
+  padding: 10px;
+}
+
+label {
+  font-size: 20px;
+  margin: 10px;
+}
