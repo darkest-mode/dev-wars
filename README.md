@@ -1,8 +1,8 @@
 <img src="https://github.com/darkest-mode/dev-wars/blob/main/dev-wars/src/images/dev-wars.png" width=180px align=right alt="DevWars!!!1!"/>
 
-# DevWars
+# DevWars!!!1!
 
-DevWars, by Darkest Mode, is a resource management game in the style of [Frank Lantz's](https://twitter.com/flantz) [Universal Paperclips](https://www.decisionproblem.com/paperclips/).
+DevWars!!!1!, by Darkest Mode, is a resource management game in the style of [Frank Lantz's](https://twitter.com/flantz) [Universal Paperclips](https://www.decisionproblem.com/paperclips/).
 
 ### Darkest Mode
 
