@@ -10,7 +10,14 @@ Darkest Mode are [Owen Corrigan](https://github.com/ojcorrigan) and [Zan Clifton
 
 #
 
-## RunningThe Project Locally
+### Using an Autoclicker
+
+To make your life a little easier playing DevWars!!!1! (and any other idle clicker game), please make use of Zan's [handy, carpal-tunnel-avoiding autoclicker](https://github.com/ZanClifton/python-autoclicker). Injuries from repeated mouse-clicking are possible, and idle clicker games can be extremely difficult for people with conditions that affect their hands.
+
+#
+
+## Running The Project Locally
+
 ### ✔️ 1. CLONE THE REPO
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
