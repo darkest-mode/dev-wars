@@ -3,7 +3,7 @@ import { useState } from "react";
 const CodeGenerator = ({ codeTracker, setCodeTracker }) => {
   const [appTracker, setAppTracker] = useState(0);
   const [availableCode, setAvailableCode] = useState(0);
-  // const [appsAvailable, setAppsAvailable] = useState(0);
+
   return (
     <form className="App-code-generator">
       <h4>Total Lines of Code Generated: {codeTracker}</h4>

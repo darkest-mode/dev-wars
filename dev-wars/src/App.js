@@ -1,6 +1,8 @@
 import { useState } from "react";
 
+import CodeGenerator from "./components/CodeGenerator.jsx";
 import Header from "./components/Header.jsx";
+
 import "./App.css";
 
 function App() {
@@ -8,7 +10,11 @@ function App() {
 
   return (
     <div className="App">
-      <Header codeTracker={codeTracker} setCodeTracker={setCodeTracker} />
+      <Header />
+      <CodeGenerator
+        codeTracker={codeTracker}
+        setCodeTracker={setCodeTracker}
+      />
     </div>
   );
 }
