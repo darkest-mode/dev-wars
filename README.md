@@ -4,6 +4,8 @@
 
 DevWars!!!1!, by Darkest Mode, is a resource management game in the style of [Frank Lantz's](https://twitter.com/flantz) [Universal Paperclips](https://www.decisionproblem.com/paperclips/).
 
+The current, very much in development, deployment, [is available online](https://darkest-mode-dev-wars.netlify.app/) if you'd like to take a look at what we've done so far and what we're currently experimenting with.
+
 ### Darkest Mode
 
 Darkest Mode are [Owen Corrigan](https://github.com/ojcorrigan) and [Zan Clifton](https://github.com/ZanClifton). They met on the [Northcoders Boot Camp](https://northcoders.com/our-courses/coding-bootcamp), where they began working on this project togther. Inspired by [Lantz's](https://twitter.com/flantz) use of Universal Paperclips to learn JavaScript, this is a tribute to both him and his game's concept. DevWars would be substantially further along if Owen and Zan played less Universal Paperclips and did more work.
