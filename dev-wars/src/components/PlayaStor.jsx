@@ -5,11 +5,13 @@ const PlayaStor = ({
   setAppsUploaded,
   availableApps,
   setAvailableApps,
+  appsDownloaded,
+  setAppsDownloaded,
 }) => {
   return (
     <form>
       <label htmlFor="AllTimeDownloads">
-        All Downloads Ever {appsUploaded}
+        All Downloads Ever: {appsDownloaded}
       </label>
       <button
         type="button"
@@ -32,6 +34,8 @@ const PlayaStor = ({
       <PlayaStorDash
         appsUploaded={appsUploaded}
         setAppsUploaded={setAppsUploaded}
+        appsDownloaded={appsDownloaded}
+        setAppsDownloaded={setAppsDownloaded}
       />
     </form>
   );
