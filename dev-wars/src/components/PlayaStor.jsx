@@ -38,7 +38,6 @@ const PlayaStor = ({
 			<label htmlFor='DownloadsPerMinute'>
 				Downloads per Minute: {appsUploaded}
 			</label>
-			<button>Hello</button>
 		</form>
 	);
 };
