@@ -1,44 +1,46 @@
-import PlayaStorDash from "./PlayaStorDash";
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 const PlayaStor = ({
-  appsUploaded,
-  setAppsUploaded,
-  availableApps,
-  setAvailableApps,
-  appsDownloaded,
-  setAppsDownloaded,
+	appsUploaded,
+	setAppsUploaded,
+	appsDownloaded,
+	setAppsDownloaded,
 }) => {
-  return (
-    <form>
-      <label htmlFor="AllTimeDownloads">
-        All Downloads Ever: {appsDownloaded}
-      </label>
-      <button
-        type="button"
-        id="uploadApp"
-        onClick={(event) => {
-          if (availableApps >= 1) {
-            setAppsUploaded((currentUploads) => {
-              const newUploadsTotal = (currentUploads += 1);
-              return newUploadsTotal;
-            });
-            setAvailableApps((currentApps) => {
-              const newAppsTotal = (currentApps -= 1);
-              return newAppsTotal;
-            });
-          }
-        }}
-      >
-        UPLOAD APP TO PLAYASTOR
-      </button>
-      <PlayaStorDash
-        appsUploaded={appsUploaded}
-        setAppsUploaded={setAppsUploaded}
-        appsDownloaded={appsDownloaded}
-        setAppsDownloaded={setAppsDownloaded}
-      />
-    </form>
-  );
+	const [downloadsPerApp, setDownloadsPerApp] = useState(0);
+	const [downloadsPerMinute, setDownloadsPerMinute] = useState(0);
+
+	let interval = 1000;
+
+	useEffect(() => {
+		while (appsUploaded > 0) {
+			const timer = setInterval(() => {
+				setAppsDownloaded((currentDownloads) => {
+					const newDownloadsTotal = (currentDownloads +=
+						appsUploaded);
+					return newDownloadsTotal;
+				});
+			}, interval);
+			return () => clearInterval(timer);
+		}
+	}, [appsUploaded]);
+
+	return (
+		<form className='App-playastor'>
+			<label htmlFor='AppsInStore'>
+				Apps in PlayaStor: {appsUploaded}
+			</label>
+
+			<label htmlFor='DownloadsPerApp'>
+				Downloads per App: {downloadsPerApp}
+			</label>
+
+			<label htmlFor='DownloadsPerMinute'>
+				Downloads per Minute: {appsUploaded}
+			</label>
+			<button>Hello</button>
+		</form>
+	);
 };
 
 export default PlayaStor;
