@@ -7,7 +7,6 @@ const PlayaStor = ({
 	appsDownloaded,
 	setAppsDownloaded,
 }) => {
-	const [downloadsPerApp, setDownloadsPerApp] = useState(0);
 	const [downloadsPerMinute, setDownloadsPerMinute] = useState(0);
 
 	let interval = 1000;
@@ -26,16 +25,12 @@ const PlayaStor = ({
 	}, [appsUploaded]);
 
 	return (
-		<form className='App-playastor'>
-			<label htmlFor='AppsInStore'>
+		<form className="App-playastor">
+			<label htmlFor="AppsInStore">
 				Apps in PlayaStor: {appsUploaded}
 			</label>
 
-			<label htmlFor='DownloadsPerApp'>
-				Downloads per App: {downloadsPerApp}
-			</label>
-
-			<label htmlFor='DownloadsPerMinute'>
+			<label htmlFor="DownloadsPerMinute">
 				Downloads per Minute: {appsUploaded}
 			</label>
 		</form>

@@ -32,7 +32,8 @@ body {
 
 .App-code-generator,
 .App-playastor,
-.App-code-tracker {
+.App-code-tracker,
+.App-advertising {
 	border: 3px solid rgb(4, 119, 94);
 	box-shadow: 3px 3px #1a1f1a;
 	padding: 10px;
